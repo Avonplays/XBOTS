@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ASHWANI10_OFFICIAL"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/chatventure_club")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/yumeko_toxbot_support"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ix_bot_support")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ASHWANIashwani/XBOTS")
+        Button.url("• ᴏᴡɴᴇʀ •", "https://t.me/yumeko_ixbot?start=help")
     ]
 ]
 
@@ -34,10 +34,10 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ASHWANI](https://t.me/ASHWANI10)**\n\n"
-        TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
-        TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
-        TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ ➠ [ʏᴜᴍᴇᴋᴏ](https://t.me/yumeko_ixbot?start=help)**\n\n"
+        TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ ➠** `M3.3`\n"
+        TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➠** `3.11.3`\n"
+        TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➠** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
                     "http://telegra.ph/file/da67bb071fac5b01a5c8d.jpg",
